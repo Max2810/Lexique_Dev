@@ -69,13 +69,6 @@ footer {
   background-color: lightgray;
 }
 
-h2 {
-  text-align: center
-}
-
-h3 {
-  text-align: center
-}
 
 .front {
   display: block;
@@ -101,3 +94,53 @@ h3 {
 @media only screen and (min-width: 876px) {
 
 }
+body{width:96%;
+height:100%;
+background-color:white;}
+
+
+
+li{display:flex;
+list-style-type:none;
+flex-direction:row;
+width:96%;
+background-color:white;
+margin-top:2%;
+margin-bottom:2%;}
+
+
+h2
+{
+color:blue;
+background-color:white;
+margin-top:2%;
+margin-bottom:2%;}
+
+
+h3
+{
+color:grey;
+font-size:1em;
+text-align:justify;
+background-color:white;
+margin-top:2%;
+margin-bottom:2%;}
+
+p
+{width:96%;
+margin-left:2%;
+margin-right:2%;
+background-color:white;
+text-align:justify;
+border-bottom: 0.5px solid rgb(54, 50, 50);}
+
+ul, li {
+  padding:0;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-right:2%;
+  margin-left:2%;
+  background-color:white;
+}
+
+img {margin-top:2%;}
