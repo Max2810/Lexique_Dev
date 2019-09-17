@@ -64,3 +64,40 @@ footer {
 .nav_foot {
   margin-top: 0.2em;
 }
+
+.parcours {
+  background-color: lightgray;
+}
+
+h2 {
+  text-align: center
+}
+
+h3 {
+  text-align: center
+}
+
+.front {
+  display: block;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 2%;
+}
+
+.back {
+  display: block;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 2%;
+}
+
+.conclusion {
+  display: block;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 2%;
+}
+
+@media only screen and (min-width: 876px) {
+
+}
