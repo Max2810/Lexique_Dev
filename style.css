@@ -64,3 +64,27 @@ footer {
 .nav_foot {
   margin-top: 0.2em;
 }
+
+
+
+h3
+{
+    background-color: grey;
+}
+h4
+{
+    color: grey;
+}
+#outils li p
+{
+    font-size: 0.8em;
+    margin-top: 1%;
+}
+#outils ul
+{
+    list-style-type: none;
+}
+#outils, #frameworks p
+{
+    text-align: justify;
+}
