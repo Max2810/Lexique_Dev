@@ -100,13 +100,15 @@ background-color:white;}
 
 
 
-li{display:flex;
-list-style-type:none;
-flex-direction:row;
-width:96%;
-background-color:white;
-margin-top:2%;
-margin-bottom:2%;}
+li { 
+  display:flex;
+  list-style-type:none;
+  flex-direction:row;
+  width:96%;
+  background-color:white;
+  margin-top:2%;
+  margin-bottom:2%;
+}
 
 
 h2
