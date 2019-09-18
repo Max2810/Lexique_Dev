@@ -144,3 +144,23 @@ ul, li {
 }
 
 img {margin-top:2%;}
+
+
+
+h4
+{
+    color: grey;
+}
+#outils li p
+{
+    font-size: 0.8em;
+    margin-top: 1%;
+}
+#outils ul
+{
+    list-style-type: none;
+}
+#outils, #frameworks p
+{
+    text-align: justify;
+}
