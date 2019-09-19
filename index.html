@@ -4,43 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> 
   <title>Lexique du Développeur</title>
 </head>
 <body>
   <header>
     <h1 id="nav">Comment briller lors d'un meet up</h1>
-    <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia aperiam tenetur iste esse. Et, amet? Voluptas hic necessitatibus cumque maiores repellendus! Dignissimos similique eaque debitis deleniti soluta voluptate officiis!</p>
+    <p class="intro">Lexique du développeur : tu trouveras ici toutes les informations pour plonger dans cet univers passionant !</p>
     
     <nav>
-      <a href="#parcours" class="ancre"><img src="" alt=""></a>
-      <a href="#langages" class="ancre"><img src="" alt=""></a>
-      <a href="#frameworks" class="ancre"><img src="" alt=""></a>
-      <a href="#outils" class="ancre"><img src="" alt=""></a>
+      <a href="#parcours" class="ancre parcImg">Parcours</a>
+      <a href="#langages" class="ancre langImg">Langages</a>
+      <a href="#frameworks" class="ancre frame"></a>
+      <a href="#outils" class="ancre tools">Outils</a>
     </nav>
   </header>
-  <a href="#nav" class="retour">Revenir à la navigation</a>
-  <section class="parcours">
+  <a href="#nav" class="retour">Retour</a>
+  <section id="parcours">
     <h2>Les différents parcours du développeur web</h2>
-    <p>Vous vous demandez ce qui différencie un développeur Front-End d'un développeur Back-End ? Ces termes viennent certainement se mélanger dans votre esprit avec «intégrateur web» ou encore «webmestre», «programmeur», «web designer»...<br />
+    <div class="diff">
+      <p>Vous vous demandez ce qui différencie un développeur Front-End d'un développeur Back-End ? Ces termes viennent certainement se mélanger dans votre esprit avec «intégrateur web» ou encore «webmestre», «programmeur», «web designer»...<br />
       Les<strong> rôles</strong> et les profils de poste de la <strong>production web</strong> ont <strong>évolué</strong> au cours de ces dernières années, il est donc parfois difficile de comprendre ce que fait concrètement chacun.</p>
       <p>Nous allons identifier et différencier les rôles de développeur Front-End et développeur Back-End qui sont les deux profils-types que l'on retrouve dans la plupart des agences web de nos jours.</p>
+    </div>
       <br>
       <h3>Le développeur Front-End</h3>
       <div class="front">
         <p>Lorsque l'on parle de «Front-End», il s'agit finalement des éléments du site que l'on voit à l'écran et avec lesquels on peut interagir. Ces éléments sont composés de HTML, CSS et de Javascript contrôlés par le navigateur web de l'utilisateur.</p>
         <p>Les champs de compétence du Front-End peuvent être séparer en deux :<br />
         - Le <strong>design</strong><br />
-        - Le <strong>développement </strong>HTML, CSS, Javascript</p>
+        - Le <strong>développement </strong>HTML, CSS, Javascript</p> <br>
         <p>Le design est traditionnellement réalisé par un <strong>web designer</strong> qui produit des maquettes graphiques à l'aide de Photoshop ou Fireworks. Cependant de plus en plus de web designers ont franchi la barrière et savent coder en HTML et CSS. Dans certains cas ils sont aussi capables de produire du Javascript.</p>
         <p>Auparavant lorsque l'on parlait de <strong>développeur</strong>, on sous-entendait développeur <strong>Back-End</strong>. Maintenant on s'aperçoit que <strong>certains web designers </strong>possèdent également des<strong> compétences</strong> en développement.</p>
         <p>Le <strong>développeur Front-End</strong> est donc une personne qui peut être issue du <strong>milieu du web design</strong> en ayant renforcé ses connaissances en développement. Il peut aussi être un <strong>développeur qui a choisi de se spécialiser</strong> dans les technologies et langages du Front-End tels que :<br />
         <strong>- HTML</strong><br />
         <strong> - CSS</strong><br />
         <strong> - Javascript</strong><br />
-        <strong> - jQuery</strong><br />
+        <strong> - jQuery</strong><br /> <br>
         jQuery est un framework javascript, pour simplifier c'est une bibliothèque Javascript qui permet de coder plus vite et plus simplement.<br />
         Il existe de nombreuses bibliothèques Javascript plus ou moins complexes et adaptées à différents usages.</p>
-        <p>Maintenant, pour que le site prenne vie et que le travail du développeur Front-End soit complété, c'est au tour du développeur Back-End d'intervenir !</p>
+        <p>Maintenant, pour que le site prenne vie et que le travail du développeur Front-End soit complété, c'est au tour du développeur Back-End d'intervenir !</p> <br>
         <a href="https://roadmap.sh/frontend" title="Roadmap du parcours front-end">Roadmap du parcours front-end</a>
       </div>
       <br>
@@ -50,12 +54,12 @@
         <p>On peut décomposer le Back-End en trois parties essentielles :<br />
         - Un <strong>serveur</strong> (ou hébergement web)<br />
         - Une <strong>application</strong> (en l’occurrence le site web)<br />
-        - Une <strong>base de données</strong> (ou l'on stocke les données de l'application)</p>
+        - Une <strong>base de données</strong> (ou l'on stocke les données de l'application)</p> <br>
         <p>Le <strong>serveur</strong> est comme un disque dur accessible 24 heures sur 24, sur lequel les pages du site web sont enregistrées.</p>
-        <p>Pour pouvoir conserver vos mots de passe, vos préférences, votre panier d'achat que vous avez saisi grâce aux éléments de Front-End, il est nécessaire de les enregistrer dans une<strong> base de données</strong>. La base de données est comparable à un grand tableau avec des colonnes contenant par exemple «nom», «prénom», «mot de passe», «achat en cours». Lors de votre inscription sur un site, votre profil est enregistré dans ce tableau.<br />
+        <p>Pour pouvoir conserver vos mots de passe, vos préférences, votre panier d'achat que vous avez saisi grâce aux éléments de Front-End, il est nécessaire de les enregistrer dans une<strong> base de données</strong>. La base de données est comparable à un grand tableau avec des colonnes contenant par exemple «nom», «prénom», «mot de passe», «achat en cours». Lors de votre inscription sur un site, votre profil est enregistré dans ce tableau.<br /> <br>
         Pour pouvoir conserver, traiter, modifier ces données et fournir des informations à jour sur un site internet (comme des actualités, des fiches produits, des images, des vidéos), le développeur Back-End va utiliser des <strong>langages de programmation «dynamique»</strong>.</p>
         <p>Les langages les plus utilisés sont <strong>PHP, Ruby, Python, SQL</strong>. Souvent pour rendre le code plus clair, facilement modifiable et plus simple à maintenir en équipe, le développeur travaille avec des <strong>frameworks</strong> tels que <strong>Cake PHP, Symfony ou Code Igniter</strong>.</p>
-        <p>Enfin, le développeur Back-End met également en place et configure le serveur qui accueillera le site lui-même.</p>
+        <p>Enfin, le développeur Back-End met également en place et configure le serveur qui accueillera le site lui-même.</p> <br>
         <a href="https://roadmap.sh/backend" title="Roadmap du parcours Back-end">Roadmap du parcours Back-end</a>
       </div>
       <br>
@@ -65,10 +69,10 @@
       </div>
   </section>
 
-  <section>
+  <section id="langages">
   <h2 id="Lang">Langages</h2>  
 
-  <p id="Langages_img"><img src="https://via.placeholder.com/250x200.jpg" alt="Langage#img" /></p>
+  <img src="https://via.placeholder.com/250x200.jpg" alt="Langage#img" class="imgLang"/>
   <ul id=Langages>
     <!-- Il est possible d’associer 9 langages de programmation au moment de commencer sa carrière dans l’informatique : Java, JavaScript, Python, C, C++, C#, PHP, Rubis, objective-C -->
     <li id="HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" height="30" width="30" alt="HTML">
@@ -114,71 +118,69 @@
   </section>
 
   <section id="frameworks">
-    <h3>Frameworks</h3>
+    <h2>Frameworks</h2>
     <p>courte description, quelques exemples:</p>
     <article>
-      <h4>React</h4>
+      <h3>React</h3>
       <p>JS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
             dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
             A, quibusdam dolorum.</p>
     </article>
     <article>
-      <h4>Angular</h4>
+      <h3>Angular</h3>
       <p>JS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
           dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
           A, quibusdam dolorum.</p>
     </article>
     <article>
-      <h4>Spring</h4>
+      <h3>Spring</h3>
       <p>Java Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
             dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
             A, quibusdam dolorum.</p>
     </article> 
     <article>
-      <h4>Smphony</h4>
+      <h3>Smphony</h3>
       <p>PHP Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
           dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
           A, quibusdam dolorum.</p>
     </article>
     <article>
-      <h4>Laravel</h4>
+      <h3>Laravel</h3>
       <p>PHP Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
           dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
           A, quibusdam dolorum.</p>
     </article>
   </section>
-
-  <hr>
-
   <section id="outils">
-      <h3>Outils</h3>
+      <h2>Outils</h2>
       <p>courte description</p>
       <article>
-        <h4>un Ordinateur</h4>
+        <h3>un Ordinateur</h3>
         <p>L’outil principal...Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
             dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
             A, quibusdam dolorum.</p>
       </article>
       <article>
-        <h4>Système d’exploitation</h4>
+        <h3>Système d’exploitation</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum 
             dolores perferendis nisi accusamus cupiditate odio incidunt quasi voluptates cum, error blanditiis. 
             A, quibusdam dolorum.</p>
       </article>
       <article>
-        <h4>Logiciels</h4>
+        <h3>Logiciels</h3>
         <p>IDE - environnement de développement :
             Ensemble d’outils pour accompagner le développeur et augmenter sa productivité.</p>
             <ul>
                 <li>Terminal ???
                   <p>Communique avec l’ OS sans interface graphique</p>
-                </li>
+                </li><br>
                 <li>Éditeurs de texte
-                  <p>Création et édition de fichier en ligne de commande</p> </li>                                 
-                <li>Navigateur Web et la console<p>lorem ipsum</p></li>
-                <li>Moteur de recherche<p>lorem ipsum</p></li>
+                  <p>Création et édition de fichier en ligne de commande</p>
+                </li>  <br>                               
+                <li>Navigateur Web et la console<p>lorem ipsum</p></li><br>
+                <li>Moteur de recherche<p>lorem ipsum</p></li><br>
                 <li>Un outil de contrôle de version<p>Stockage de fichiers en conservant la chronologie et permettant le travail
-                   collaboratif </p></li>
+                   collaboratif </p></li><br>
                
              </ul>
             <p>Lorem sectetur, adipisicing elit. Ea eius dignissimos iure quisquam voluptas nostrum dolores perferendis nisi 
@@ -198,3 +200,8 @@
   </footer>
 </body>
 </html>
+
+
+
+
+
