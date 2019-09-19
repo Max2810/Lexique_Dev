@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu Condensed','Hind', sans-serif;
-    
 }
 body {
   background-color: #FFF;
-  color: grey;
+  color: rgb(128, 128, 128);
+  padding-right: 7%;
+  padding-left: 7%;
 }
 h1 {
   text-align: center;
@@ -21,7 +22,6 @@ h1 {
 }
 
 .intro {
-  text-align: center;
   margin-top: 0.5em;
   font-size: 1.2rem;
   color: grey;
@@ -36,7 +36,7 @@ nav {
 .ancre {
   padding : 12%;
   background-color: #A1A1B3;
-  margin: 10px 10%;
+  margin-top: 10px;
   color: black;
   font-size: 3em;
   text-decoration: none;
@@ -64,8 +64,8 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: blue;
-  color: white;
+  background-color: orange;
+  color: black;
   display: block;
   text-align: center;
   margin-bottom: 10px;
@@ -107,28 +107,24 @@ h2 {
 }
 
 .diff {
-  border: solid 2px black;
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
 }
 
 .front {
-  border: solid 2px black;
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
 }
 
 .back {
-  border: solid 2px black;
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
 }
 
 .conclusion {
-  border: solid 2px black;
   border-radius: 5px;
   margin: 2%;
   padding: 2%;  
@@ -144,7 +140,6 @@ h2 {
 }
 
 #frameworks article {
-  border: solid 2px black;
   border-radius: -10px;
   margin: 2%;
   padding: 2%; 
@@ -156,7 +151,6 @@ h2 {
 }
 
 #outils article {
-  border: solid 2px black;
   border-radius: -10px;
   margin: 2%;
   padding: 2%;
@@ -171,82 +165,3 @@ h2 {
   list-style-type: none;
 }
 
-
-/*MAXIME
-.parcours {
-  background-color: lightgray;
-}
-
-
-MAXIME */
-
-
-
-/*
-li { 
-  display:flex;
-  list-style-type:none;
-  flex-direction:row;
-  width:96%;
-  background-color:white;
-  margin-top:2%;
-  margin-bottom:2%;
-}
-
-
-h2
-{
-
-
-padding-top:10%;
-margin-bottom:2%;}
-
-
-h3
-{
-color:grey;
-font-size:1em;
-text-align:justify;
-
-margin-top:2%;
-margin-bottom:2%;}
-
-p
-{width:96%;
-margin-left:2%;
-margin-right:2%;
-
-text-align:justify;
-} 
-
-ul, li {
-  padding:0;
-  margin-top:2%;
-  margin-bottom:2%;
-  margin-right:2%;
-  margin-left:2%;
-  background-color:white;
-}
-
-img {margin-top:2%;}
-
-
- WOJTEK
-h4
-{
-    color: grey;
-}
-#outils li p
-{
-    font-size: 0.8em;
-    margin-top: 1%;
-}
-#outils ul
-{
-    list-style-type: none;
-}
-#outils, #frameworks p
-{
-    text-align: justify;
-}
-WOJTEK */
