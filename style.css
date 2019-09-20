@@ -146,42 +146,4 @@
     padding: 2%;  
   }
   
-  #frameworks {
-    display: flex;
-    flex-direction: column;
-  }
   
-  #frameworks h3 {
-    text-decoration: underline orange;
-  }
-  
-  #frameworks article {
-    border-radius: -10px;
-    margin: 2%;
-    padding: 2%; 
-  }
-  
-  #frameworks p {
-    margin-left: 1em;
-    padding-bottom: 2em;
-  }
-  
-  #outils h3 {
-    text-decoration: underline orange;
-  }
-  
-  #outils article {
-    border-radius: -10px;
-    margin: 2%;
-    padding: 2%;
-  }
-  
-  #outils p {
-    text-align: justif;
-    margin-left: 1em;
-    padding-bottom: 2em;
-  }
-  
-  #outils li {
-    list-style-type: none;
-  }
