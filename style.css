@@ -17,12 +17,12 @@
   h1 {
     text-align: center;
     font-size: 36px;
-    color: black
-    ;
+    color: black;
     text-shadow: 0 0 7px white;
     background: url("https://www.zupimages.net/up/19/38/6eb7.jpg") fixed;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    
   }
   
   .intro {
@@ -115,7 +115,7 @@
   }
   
   #parcours h3 {
-    text-decoration: underline orange;
+    text-decoration: underline C;
   }
   
   #parcours p {
@@ -129,21 +129,51 @@
   }
   
   .front {
-    border-radius: 5px;
     margin: 2%;
     padding: 2%;
   }
   
   .back {
-    border-radius: 5px;
     margin: 2%;
     padding: 2%;
   }
   
   .conclusion {
-    border-radius: 5px;
     margin: 2%;
     padding: 2%;  
   }
   
   
+@media only screen and (min-width: 770px) {
+  
+  #parcours p {
+    padding-bottom: 2em;
+  }
+
+  .front {
+    border-left:ridge 5px;
+    border-color: orange;
+    margin: 2%;
+    padding: 2%;
+    
+  }
+  
+  .back {
+    border-left:ridge 5px;
+    border-color: orange;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  .conclusion {
+    border-left:ridge 5px;
+    border-color: orange;
+    margin: 2%;
+    padding: 2%; 
+  }
+
+  #parcours h3 {
+    text-decoration: underline C;
+    font-size: 1.5em;
+  }
+}
